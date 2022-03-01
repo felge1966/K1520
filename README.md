@@ -8,3 +8,7 @@ Realisiert sind bisher:
 - USB Modul mit VDIP2 Modul 
 
 Zur Adressfestlegung werden in den meisten Fällen GAL's verwendet.
+
+
+weitere Baugruppen sind im Y23VO Verzeichnis (M.Kramer Mikrocomputer) zu finden.
+https://github.com/felge1966/Y23vo
