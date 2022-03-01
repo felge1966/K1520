@@ -1,0 +1,18 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
+1;"J1002";"PinHeader_2x20_P2.54mm_Horizontal";1;"Conn_02x20_Odd_Even";;;
+2;"C1003,C1008,C1007,C1006,C1005,C1004,C1002";"C_Disc_D3.0mm_W1.6mm_P2.50mm";7;"100nF";;;
+3;"IC1003,IC1002";"DIP-24_W15.24mm_LongPads";2;"SN74LS646NT";;;
+4;"X1001";"EFS2x29_DIN_male";1;"K1520";;;
+5;"J1003";"PinHeader_1x02_P2.54mm_Vertical";1;"Conn_01x02";;;
+6;"U1002";"DIP-8_W7.62mm_LongPads";1;"TL7705A";;;
+7;"U1001";"DIP-24_W7.62mm_LongPads";1;"GAL20V8";;;
+8;"RN1001";"R_Array_SIP5";1;"4K7";;;
+9;"R1013";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"330";;;
+10;"R1012,R1001";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";2;"1K";;;
+11;"R1011";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"47K";;;
+12;"R1010";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"10K";;;
+13;"R1009,R1008,R1007,R1006,R1005,R1004,R1003,R1002";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";8;"100";;;
+14;"J1001";"PinHeader_2x04_P2.54mm_Vertical";1;"Conn_02x04_Odd_Even";;;
+15;"IC1001";"DIP-20_W7.62mm_LongPads";1;"GAL16V8D-25LPN";;;
+16;"D1001";"LED_D3.0mm";1;"LED";;;
+17;"C1001";"CP_Radial_D4.0mm_P2.00mm";1;"47µ";;;

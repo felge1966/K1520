@@ -1,0 +1,12 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
+1;"C1006,C1005,C1004,C1003,C1002,C1001";"C_Disc_D3.0mm_W1.6mm_P2.50mm";6;"100n";;;
+2;"SW1001";"SW_PUSH_6mm_H4.3mm";1;"SW_Push";;;
+3;"J1004,J1003";"PinHeader_1x03_P2.54mm_Vertical";2;"Conn_01x03";;;
+4;"U1003";"DIP-40_W15.24mm_LongPads";1;"VDIP2";;;
+5;"IC1001";"DIP-20_W7.62mm_LongPads";1;"GAL16V8D-25LPN";;;
+6;"J1001";"PinHeader_1x06_P2.54mm_Vertical";1;"Conn_01x06";;;
+7;"J1002";"PinHeader_2x10_P2.54mm_Vertical";1;"Conn_02x10_Odd_Even";;;
+8;"R1001";"R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal";1;"47K";;;
+9;"U1001";"DIP-14_W7.62mm_LongPads";1;"74LS00";;;
+10;"U1002";"DIP-40_W15.24mm";1;"PIO-DIP-40";;;
+11;"X1001";"K1520_EFS2x29_DIN_male";1;"K1520_2x29-AC";;;
