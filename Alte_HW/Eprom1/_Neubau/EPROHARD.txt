@@ -1,0 +1,36 @@
+
+
+
+     Hardware-Dokumentation fuer Programmiermodul EPROM1/EPROM1-Z
+
+
+     Der Programmiermodul besteht aus zwei Leiterkarten EPROM1 und EPROM1-Z,
+     wobei EPROM1-Z als externe Zusatzkarte ausgefuert ist und im wesent-
+     lichen nur den EPROM-Sockel,eine Warn-LED und die Lastbeschaltung
+     traegt.
+
+      Die Programmierkarte EPROM1 ist als OEM-Karte (K 1520) ausgefuehrt
+     und kann als PC 1715-Karte konfiguriert werden.(Siehe Inbetrieb-
+     nahmevorschrift!)
+
+      Zentraler Bestandteil des Programmiermoduls sind zwei PIO U855D,
+     die ueber eine Adressenumschaltlogik an den CPU-Bus geschaltet
+     werden.Eine Interrupt-Steuer-Logik gewaehrleistet die Interrupt-
+     faehigkeit der Karte sowohl im PC 1715 als auch in jedem
+     K 1520-Rechner. Die Einbindung der Karte in den Rechner erfolgt
+     ueber die entsprechenden Steckverbinder fuer K 1520 (X1) oder
+     fuer PC 1715 (X2).
+
+      Port A des PIO1 ist neben seiner Hauptfunktion als Datenport
+     des Programmiermoduls mit seinen Handshakesignalen /ASTB,ARDY
+     und den Handshakesignalen des Ports B /BSTB,BRDY fuer den
+     PIO-Mode 2 ueber X3 nach aussen gefuert.
+
+      Die Ports B (PIO1),A (PIO2) und B (PIO2) dienen der Steuerung
+     der Umschaltlogik, des Transverters, der Monoflops und des
+     Adressenzaehlers, welcher in seinen hoechstwertigen Adressbits
+     A11...A14 ladbar ist.
+
+      Die Verbindung zur Zusatzkarte EPROM1-Z erfolgt ueber die
+     Steckverbinder X3(X5) ,X4(X6).
+

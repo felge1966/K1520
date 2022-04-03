@@ -1,0 +1,25 @@
+Definition der pins:                                            
+
+27256   Vcc  A14 A13 A8  A9  A11 /oe A10 /ce o7  o6  o5  o4  o3
+27128   Vcc /PGM A13 A8  A9  A11 /oe A10 /ce o7  o6  o5  o4  o3
+ 2764   Vcc /PGM  NC A8  A9  A11 /oe A10 /ce o7  o6  o5  o4  o3
+ 2732    -    -  Vcc A8  A9  A11 /oe A10 /ce o7  o6  o5  o4  o3
+ 2716    -    -  Vcc A8  A9  Vpp /oe A10 /ce o7  o6  o5  o4  o3
+ 2708    -    -  Vcc A8  A9  Vbb cew Vdd PRG o7  o6  o5  o4  o3
+        +---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+        | IV|III| 24| 23| 22I 21| 20| 19| 18| 17| 16| 15| 14| 13|
+        +---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+        |       |                                               |
+        |D      |D      PROGRAMMIER-SOCKEL                      |
+        |       |                                               |
+        +---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+        | I | II| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10| 11| 12|
+        +---+---+---+---+---+---+---+---+---+---+---+---+---+---+
+ 2708     -   -   A7  A6  A5  A4  A3  A2  A1  A0  o0  o1  o2 GND
+ 2716     -   -   A7  A6  A5  A4  A3  A2  A1  A0  o0  o1  o2 GND
+ 2732     -   -   A7  A6  A5  A4  A3  A2  A1  A0  o0  o1  o2 GND
+ 2764    Vpp A12  A7  A6  A5  A4  A3  A2  A1  A0  o0  o1  o2 GND
+27128    Vpp A12  A7  A6  A5  A4  A3  A2  A1  A0  o0  o1  o2 GND
+27256    Vpp A12  A7  A6  A5  A4  A3  A2  A1  A0  o0  o1  o2 GND
+
+ 

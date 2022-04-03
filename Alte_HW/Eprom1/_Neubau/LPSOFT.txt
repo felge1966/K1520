@@ -1,0 +1,164 @@
+
+
+
+
+          INBETRIEBNAHMEVORSCHRIFT FUER PROGRAMMIERMODUL EPROM1/EPROM1-Z
+
+
+          1.Allgemeine Hinweise
+
+          -Vor dem Bestuecken der Leiterkarten ist eine optische Pruefung
+           der Leiterzugfuehrung auf eventuelle Haarrisse oder Kurz-
+           schluesse erforderlich.
+
+          -Die Programmierkarte (EPROM1) wird im K 1520-Format geliefert
+           und ist in jeden K 1520-Rechner steckbar.
+           (der Steckverbinder X2 (ZRE-Bus 1715) darf auf K 1520-Karten
+           nicht bestueckt werden.)
+
+          -Fuer den Einsatz im PC 1715 ist es notwendig vor dem
+           Bestuecken die K 1520-Steckverbinderseite entlang der
+           Markierung ( 1 Rasterschritt neben dem Steckverb. X1 )
+           abzutrennen.
+
+          -Die Verbindung zur Zusatzkarte (EPROM1-Z) erfolgt direkt
+           ueber die Steckverbinder X3-X5 ,X4-X6 oder ueber ein
+           entsprechendes Adapterkabel (bei K 1520 vorteilhaft !).
+           Die maximale Kabellaenge sollte 50cm nicht ueberschreiten!
+
+
+          2.Aufbau der Leiterplatten
+
+          -Die Bestueckung der Leiterkarten erfolgt entsprechend
+           Belegungsplan und Stueckliste.
+
+          -In der Stueckliste (STUELI) ist unter Pos.261 die
+           Windungszahl fuer den minimalen Al=630 angegeben(N=90).
+           Fuer alle Al-Werte >630 berechnet sich die Windungszahl
+           nach folgender Naeherungsbeziehung:
+
+               N= ca.SQRT (5.103 * 1E06/Al)
+
+          (N ist rund der Wurzel aus 5,103 mal 10 hoch 6 geteilt durch Al)
+
+          Beisp.   AL         N
+                  630         90 }
+                 1800         54 } -erprobt !
+                 3200         41 }
+
+
+          -Nach dem Bestuecken der Leiterkarten ist nach einer visuellen
+           Pruefung eine Messung der Stromaufnahme an der EPROM1 erforderlich.
+           Der Strom sollte 350mA nicht ueberschreiten !
+
+          -Vor der Inbetriebnahme der Karten ist der Schalter KF1 so
+           zu schalten, dass die Karte die I/O-Adressen E0H..E7H
+           belegt (Siehe Bild 1) oder es sind ensprechende Bruecken
+           auf dem Schalterfeld zu wickeln oder zu loeten.
+           
+           speziell PC 1715: Bruecke BR1 verbinden !
+           speziell K 1520 : auf dem Systemsteckverbinder X1 ist eine
+ 
+Š
+
+                             Verbindung zwischen A27 u.B27 (/BAI-/BAO)
+                             herzustellen.
+
+          Anmerkung: Fuer andere CP/M kompatible Systeme bei denen die
+                     o.g. Adressen nicht durch die Programmierkarte
+                     belegt werden koennen, muss eine Softwareanpassung
+                     erfolgen.
+
+
+                 A7   A6   A5   A4   A3
+                ________________________
+               | $$ | $$ | $$ |    |    |  on
+               |    |    |    |    |    |
+               |    |    |    | $$ | $$ |  off
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+                1
+
+
+              a7/a7 a6/a6 a5/a5 a4/a4 a3/a3 
+               o  o  o  o  o  o  o  o  o  o
+               |     |     |        |     |
+               o  o  o  o  o  o  o  o  o  o
+               1
+
+
+          Bild 1: Schalterstellung bzw. Lage der Bruecken
+                  im Schalterfeld KF1 fuer E0H...E7H
+
+          3.Inbetriebnahme der Leiterkarten
+
+           Hilfsmittelº
+                 Rechneò  BÃ  512°  odeò PÃ 171µ (odeò einån anderån)
+                 Oszilloskop ( extern triggerbar ,mindestens 2 Y-Kanale)
+
+          -Die EPROM1 ist ueber eine Adapterkarte (in K 1520-Rechnern)
+           oder ueber ein Verlaengerungskabel ("Hosentraeger") (PC 1715)
+           so an den Rechner anzuschliessen, dass die Dickschichtein-
+           stellregler R33, R34 und R62 zugaenglich sind.
+
+          -Die EPROM1-Z ist anzustecken.
+
+          -Der Rechner ist einzuschalten und das Programm LP.COM
+           ist zu starten.
+
+           (Achtung:Dieses Programm ist nur fuer die Inbetriebnahme
+                    vorgesehen.Verschiedene Routinen dieses Programms
+                    koennen nur mit Kaltstart (RESET) abgebrochen werden.)
+
+          Das Programm LP.COM  fuehrt den Bearbeiter mit den Routinen
+          a bis g zu einer vollstaendigen Inbetriebnahme der Programmier-
+          karte.(Siehe Anfangsmenue von LP.COM, durch '?' werden alle
+          Inbetriebnahmefunktionen erneut angezeigt. )
+
+          -Nach Durchfuehrung der Abgleicharbeiten kann die EPROM1
+           in den entsprechenden Rechner eingebaut werden.
+
+
+
+
+Š
+
+          -Besonderheiten:
+
+                -PÃ 1715:Diå EPROM1(1715© wirä miô deò Bestueckungsseite
+                         nach unten auf der oberen Leiterplattenposition
+                         (Platz fuer Interfaceleiterkarte des BWS)
+                         angebracht.
+                         Die Verbindung zur ZRE-karte wird ueber ein
+                         58-poliges Kabel (Flachbandleitung, max 15cm )
+                         hergestellt. (der 58-polige Steckverbinder X2 der
+                         ZRE-karte befindet sich unterhalb des Luefters )
+                         Ueber die Steckverbinder X3 , X4 ,die durch die
+                         Oeffnungen in der Rueckwand des PC ragen, wird
+                         von aussen die Zusatzkarte EPROM1-Z angesteckt.
+                         (eventuelì muesseî diå Abdeckungeî deò Rueck-
+                         wanddurchbrueche des PC entfernt werden.)
+                         Als Zugentlastung fuer die Zusatzkarte koennen
+                         zwei der sich an der Rueckwand befindlichen
+                         Schrauben M3 benutzt werden.     
+
+               -BC 5120:-Die EPROM1(1520) wird auf einen freien 
+                         Steckplatz gesteckt.Die Zusatzkarte EPROM1-Z
+                         ist sinnvollerweise ueber zwei 26-polige
+                         Adapterkabel (max. 50cm ) anzuschliessen.
+                         ( V O R S I C H T ! Verwechslungsgefahr 
+                           Achte auf die Steckverbinderpaarung X3-5 ,X4-6 )
+
+ 
+          PS:  Ich wuensche allen Nutzern viel Erfolg bei der
+               Inbetriebnahme und dem nachfolgenden Einsatz. Fuer
+               Hinweise und Kritiken, die zur Verbesserung dieser
+               und der anderen DOCs fuehren, bin ich dankbar.
+
+                                             -J.W.-
+
+
+
+          >Aenderungen im Sinne der Verbesserung vorbehalten !<
+
+
+

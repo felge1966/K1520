@@ -1,0 +1,102 @@
+      Ingenieurbetrieb fuer die Anwendung 
+      der Mikroelektronik Erfurt
+
+
+
+
+
+      Programmiermodul EPROM 1
+
+      Diese  Leiterkarte  dient in Verbindung mit einem PC  1715- 
+      oder  einem  K 1520-Rechner der Programmierung  der  EPROM-
+      Typen 2708...27256.     
+      Auf einer ansteckbaren  Zusatzkarte EPROM 1-Z befindet sich 
+      ein 28-poliger EPROM-Sockel sowie eine "Warn-LED".
+     -Die  Einstellung der EPROM-spezifischen Betriebsbedingungen 
+      (Spannungen,  Timing...) am Sockel erfolgt  ausschliesslich 
+      softwaregesteuert. 
+     -Die  unbestueckte Karte wird im K 1520-Format geliefert und 
+      kann   wahlweise   mit  Steckverbindern fuer  K  1520- oder       
+      PC 1715-Bus bestueckt werden.  Die Konfigurierung zur 1715-  
+      Karte  erfolgt durch Abtrennen  der  Steckverbinderposition 
+      fuer K 1520 (X1:).
+     -Die  Verbindung  zur Zusatzkarte EPROM 1-Z wird ueber  zwei 
+      Steckverbinder  (X3:,X4:)  realisiert,  die  speziell  beim      
+      PC  1715  durch  die Durchbrueche in der Rueckwand  des  PC 
+      ragen.(Die EPROM 1 wird in diesem Fall mechanisch wie  eine 
+      serienmaessige  Interfacekarte (2*IFSS oder 2*V24) des  BWS 
+      in den Rechner eingebaut.)
+     -Bei  Benutzung der EPROM 1 in einem K 1520-Rechner darf der 
+      PC  1715-Systemsteckverbinder (X2:) nicht  bestueckt  sein. 
+      Der Anschluss der Zusatzkarte EPROM 1-Z kann in diesem Fall 
+      auch ueber Kabel erfolgen.
+     -Die  mitgelieferte Software wird durch die  Betriebssysteme 
+      UDOS oder SCP unterstuetzt und ist primaer auf den Geraeten 
+      BC 5120 (5130) bzw.  PC 1715 nutzbar.  Die Formatierung der 
+      SCP-Disketten kann auf Laufwerkstyp 1.6 oder 1.2 abgestimmt 
+      werden.
+     -Die  Dokumentation   zur Karte (ausser  Stromlaufplan,  Be
+      stueckungsplan)   und  die  Inbetriebnahmevorschrift   ein
+      schliesslich  Inbetriebnahmeprogramm werden auf der  Anwen
+      derdiskette  geliefert (fuer Format 1.2 sind  deshalb  zwei 
+      51/4"-Disketten erforderlich).    
+
+
+      Technische Daten:
+
+      -Kartenformat:    215mm x 170mm (K 1520)
+                        215mm x 150mm (PC 1715)
+      -Stromversorgung: 5P,<1A je nach Bestueckung (D10 oder DL),
+                        12P und 5N fuer 2708 notwendig 
+                        Die  Erzeugung  der   Programmierspannung 
+                        erfolgt aus der 5P- Betriebsspannung.
+
+
+
+
+
+
+
+
+
+
+      -wichtigste Bauelemente: 
+               
+               2 x PIO U855D
+               4 x V 4029
+               1 x DS 8286
+               1 x B 555
+               einige TTL-IS (Standard oder LS)   
+               1 x DIL-Relais RGK 13/1   01/005/01
+               1 x Schalenkern 18x11 (Manifer 183, Al=630)
+                   +Spulenkoerper (Polyst.)
+                   +Loetstiftetraeger (Polyst.)
+                   +Gewindebuchse (Polyst.)
+                   +Buegel (Neusilber)
+               1 x 28-polige Schaltkreisfassung (Tesla)
+                   TX 7855281 oder 40-pol.: TX 7855401
+                   oder Textool 28-polig
+
+
+
+      Zum Lieferumfang gehoeren: 
+                  
+                     1 unbestueckte Leiterkarte EPROM 1 
+                     1 unbestueckte Leiterkarte EPROM 1-Z   
+                     Bestueckungsplan, Stromlaufplan
+          auf Disk.: Stueckliste,Funktionsbeschreibung,
+                     Inbetriebnahmevorschrift,Inbetrieb-
+                     nahme-Software,
+                     EPRO-Module(Anwender-Software)
+
+
+
+
+      Preis:  3000.- M
+              jeder weitere Kartensatz EPROM 1 + EPROM 1-Z 
+              zuzueglich 250.- M
+
+
+
+      Weitere Informationen sind telefonisch zu erfragen:
+      Koll. Wrenzitzki  Tel.: Erfurt 62102 App.23

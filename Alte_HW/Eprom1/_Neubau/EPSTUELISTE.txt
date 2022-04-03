@@ -1,0 +1,119 @@
+
+| Lfd.| Stueck-|      Benennung           |  Sachnummer     |  Bemerkungen
+| Nr. |  zahl  |                          |                 |   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+| 200 |    1   | FKS DL  008 (D108)       |                 | D1
+| 201 |    5   | FKS DL  000 (D100)       |                 | D2,D7,D16,D17,
+|     |        |                          |                 | D20
+| 202 |    1   | FKS DL  004 (D104)       |                 | D3
+| 203 |    1   | FKS DL  003 (D103)       |                 | D5
+| 204 |    1   | FKS DL  020 (D120)       |                 | D4
+| 205 |    1   | FKS DL  030 (D130)       |                 | D6
+| 206 |    1   | FKS D   100              |                 | D21
+| 207 |    1   | FKS D   103              |                 | D22
+| 208 |    1   | FKS D   110              |                 | D18
+| 209 |    1   | FKS DL  123              |                 | D19
+| 210 |    1   | FKS DS 8286              |                 | D8
+| 211 |    2   | FKS U   855              |                 | D9,D10
+| 212 |    1   | FKS B   555              |                 | D11
+| 213 |    4   | FKS V  4029              |                 | D12,D13,D14,
+|     |        |                          |                 | D15
+| 214 |    1   | DIL-Relais               |RGK13/1-01/005/01| K1
+| 215 |    7   | Transistor    SD 336     |                 | VT1-3,VT5,VT6,
+|     |        |                          |                 | VT8,VT16
+| 216 |    2   | Transistor    SD 335     |                 | VT4,VT7
+| 217 |    1   | Transistor    SD 339 A   |                 | VT31
+| 218 |    1   | Transistor    SC 237 D   |                 | VT32
+| 219 |   11   | Transistor    SS 200     |                 | VT9-12,VT15,
+|     |        |                          |                 | VT17-21,VT40,   
+| 220 |    2   | Transistor    SF 118     |                 | VT13,VT14 
+| 221 |    8   | Diode         SY 345/1   |                 | VD1,VD2,VD4-7,
+|     |        |                          |                 | VD9,VD10 
+| 222 |    2   | Diode         SAY 12     |                 | VD8,VD13
+| 223 |    1   | Z-Diode       SZX 21/5,1 |                 | VD3
+| 224 |    1   | Z-Diode       SZX 21/22  |                 | VD11
+| 225 |    1   | Z-Diode       SZX 21/20  |                 | VD21
+| 226 |    1   | Diode         SY 360/1   |                 | VD22
+| 227 |    2   | LED           VQA 13/1   |                 | VD12,VD30
+| 228 |    5   | DIL-Schalter oder ent-   |KSD13010.31(.32, | KF1
+|     |        | sprechende Kombinationen |            .34) | 
+|     |        | oder Wickelbruecken      |                 |
+| 229 |    1   | Schaltkreisfassung(Tesla)|TX 7855281 oder  | KD1
+|     |        |                          |TX 7855401       |
+|     |        | oder 28-pol. (Textool)   |                 |
+| 230 |    1   | Schichtwiderstand 10 Ohm |25.207 TGL 8728  | R45
+| 231 |    1   |     ~  "  ~       56 Ohm |     ~  "  ~     | R44
+| 232 |    1   |     ~  "  ~      100 Ohm |     ~  "  ~     | R64
+| 233 |    1   |     ~  "  ~      240 Ohm |     ~  "  ~     | R72
+| 234 |    1   |     ~  "  ~      300 Ohm |     ~  "  ~     | R37
+| 235 |    2   |     ~  "  ~      390 Ohm |     ~  "  ~     | R38,R39
+| 236 |    1   |     ~  "  ~      470 Ohm |     ~  "  ~     | R7
+| 237 |    7   |     ~  "  ~     1   kOhm |     ~  "  ~     | R16,R18,R43,
+|     |        |                          |                 | R51-53,R61
+| 238 |    1   |     ~  "  ~     2   kOhm |     ~  "  ~     | R23
+| 239 |    8   |     ~  "  ~     3,3 kOhm |     ~  "  ~     | R3,R6,R11,R14
+|     |        |                          |                 | R22,R28,R32,
+|     |        |                          |                 | R42
+| 240 |    1   |     ~  "  ~     3,9 kOhm |     ~  "  ~     | R67
+| 241 |    5   |     ~  "  ~     5,1 kOhm |     ~  "  ~     | R15,R17,R25,
+|     |        |                          |                 | R35,R71
+| 242 |    3   |     ~  "  ~     6,8 kOhm |     ~  "  ~     | R13,R21,R31
+| 243 |    9   |     ~  "  ~    10   kOhm |     ~  "  ~     | R1,R4,R9,R12,
+|     |        |                          |                 | R20,R26,R30,
+| Lfd.| Stueck-|      Benennung           |  Sachnummmer    |  Bemerkungen
+| Nr. |  zahl  |                          |                 |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+|     |        |                          |                 | R36,R40
+| 244 |    6   | Schichtwiderstand        |25.207 TGL 8728  | R29,R46,R47,
+|     |        |                20   kOhm |                 | R49,R50,R66,
+| 245 |    1   | Dickschichteinstell-     |                 | R34
+|     |        | widerstand (stehend)     |                 |
+|     |        | 22 kOhm                  |                 |
+| 246 |    1   | Dickschichteinstell-     |                 | R62
+|     |        | widerstand (stehend)     |                 | 
+|     |        | 4,7 kOhm                 |                 |
+| 247 |    1   | Dickschichteinstell-     |                 | R33
+|     |        | widerstand (stehend)     |                 | 
+|     |        | 100 kOhm                 |                 |
+| 248 |    2   | Schichtwiderstand        |25.207 TGL 8728  | R48,R73
+|     |        | 33 kOhm                  |                 | 
+| 249 |    5   | Schichtwiderstand        |    ~  "  ~      | R2,R5,R10,R27
+|     |        | 36 kOhm                  |                 | R41
+| 250 |    5   | Schichtwiderstand        |    ~  "  ~      | R8,R19,R24,
+|     |        | 47 kOhm                  |                 | R63,R65
+|     |        |                          |                 |
+| 251 |    1   | Kondensator      180 pF  |   SDVU          | C2
+| 252 |    1   |  ~  "  ~           1 nF  |   SDVU          | C23
+| 253 |    1   |  ~  "  ~         2,2 nF  |   SDVU          | C24
+| 254 |    2   |  ~  "  ~          10 nF  |   SDVU          | C39,C40
+| 255 |    1   |  ~  "  ~          15 nF  |   SDVU          | C25
+| 256 |    8   |  ~  "  ~          47 nF  |   SDVU          | C3,C32-38
+| 257 |    2   |  ~  "  ~         100 nF  |   SDVU          | C1,C31
+| 258 |    1   |  ~  "  ~       1 uF/6V   |  Tantal         | C21
+| 259 |    1   |  ~  "  ~     4,7 uF/6V   |  Tantal         | C4
+| 260 |    1   |  ~  "  ~      22 uF/6V   |  Tantal         | C30
+| 261 |    1   |  ~  "  ~     470 uF/40V  |  Elyt           | C22
+| 262 |    1   | Schalenkern 18*11        |5135.4-4132.24   | L1
+|     |        | (Manifer 183,Al=630,     |                 |
+|     |        | 90 Wdg. CuL 0.3)         |                 |
+|     |        | + Spulenkoerper          |5136.1-4157.00   |
+|     |        |   (Polystyrol)           | PS-S246 P       |
+|     |        | + Loetstifttraeger       |5136.5-4211.00   |
+|     |        |   (vollst.);Polystyrol   |                 |
+|     |        | + Gewindebuchse (Polyst.)|5136.1-4111.00   |
+|     |        | + Buegel (Neusilber)     |5136.2-4311.00   |
+| 263*|    1   | Steckerleiste (58-pol.)  |304-58           | X1 (1520) 
+|     |    1   | Buchsenleiste (58-pol.)  |202-58           | X2 (1715)
+| 264 |    2   | Steckerleiste (26-pol.)  |102-26           | X3,X4
+|265**|    2   | Buchsenleiste (26-pol.)  |212-26           | X5,X6 (1715)
+|     |    2   | Buchsenleiste (26-pol.)  |202-26           | X5,X6 (1520)
+| 266 |   12   | Schichtwiderstand        |25.207 TGL 8728  | R75-90        
+|     |        | 10 kOhm                  |                 | 
+| 267 |    1   | Buchsenleiste oder       |202-26,212-26    | optional fuer
+|     |        | Steckerleiste            |102-26           | Parallel-I/O
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+*  Bestueckungsvariante als K1520- oder 1715-Karte
+** EPROM1-Z senkrecht zur EPROM1 (X5,X6 nicht abgewinkelt)
+   oder in einer Ebene mit EPROM1 (X5,X6 sind abgewinkelt)
